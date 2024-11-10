@@ -2,13 +2,13 @@
 FROM openjdk:17-slim
 
 # Copy the program file into the container
-COPY HolaMundo.java /app/HolaMundo.java
+COPY holamundo.java /app/HolaMundo.java
 
 # Set the working directory
 WORKDIR /app
 
 # Compile the program
-RUN javac HolaMundo.java
+RUN javac holamundo.java
 
 # Command to run the program
-CMD ["java", "HolaMundo"]
+CMD ["java", "holamundo"]
