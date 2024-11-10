@@ -1,14 +1,14 @@
-# Usamos una imagen base de OpenJDK
+# Use an OpenJDK base image
 FROM openjdk:17-slim
 
-# Copiar el archivo del programa al contenedor
+# Copy the program file into the container
 COPY HolaMundo.java /app/HolaMundo.java
 
-# Definir el directorio de trabajo
+# Set the working directory
 WORKDIR /app
 
-# Compilar el programa
+# Compile the program
 RUN javac HolaMundo.java
 
-# Comando para ejecutar el programa
-CMD ["java", "holamundo"]
+# Command to run the program
+CMD ["java", "HolaMundo"]
