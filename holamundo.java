@@ -1,4 +1,3 @@
-// HelloWorld.java
 
 // This program prints "Hello World" to the console
 public class holamundo {
