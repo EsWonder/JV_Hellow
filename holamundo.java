@@ -1,6 +1,6 @@
-// HolaMundo.java
+// HelloWorld.java
 
-// Este programa imprime "Hola Mundo" en la consola
+// This program prints "Hello World" to the console
 public class holamundo {
     public static void main(String[] args) {
         System.out.println("Hola Mundo");
