@@ -31,16 +31,16 @@ java HolaMundo
 
 # Step 1: Build the Docker Image
 ```bash
-docker build -t java-hello-world .
+docker build -t jv-hello-world .
 ```
 # Step 2: Tag the Image
 
 ```bash 
-docker tag java-hello-world eswonder/java-hello-world:latest
+docker tag jv-hello-world eswonder/jv-hello-world:latest
 ```
 # Step 3: Push the Image to Docker Hub
 ```bash 
-docker push eswonder/java-hello-world:latest
+docker push eswonder/jv-hello-world:latest
 ```
 
 ## Docker Hub Link
