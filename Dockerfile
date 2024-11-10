@@ -2,7 +2,7 @@
 FROM openjdk:17-slim
 
 # Copy the program file into the container
-COPY holamundo.java /app/HolaMundo.java
+COPY holamundo.java /app/holamundo.java
 
 # Set the working directory
 WORKDIR /app
